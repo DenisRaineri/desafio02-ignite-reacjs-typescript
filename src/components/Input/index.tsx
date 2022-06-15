@@ -9,7 +9,7 @@ interface InputProps {
   name: string;
   placeholder?: string;
   icon?: React.ComponentType<IconBaseProps>;
-  size: number;
+  size?: number;
 }
 
 export default function Input({ name, icon: Icon, ...rest }: InputProps) {
